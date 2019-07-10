@@ -1,10 +1,55 @@
 
 .nav {
-  margin-left: 800px;
   font-family: "AvenirNext",Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: normal;
   font-size: 12px;
   line-height: 1.5;
+  float: right;
+}
+
+.nav p {
+  margin-bottom: -3px;
+}
+
+.nav-container {
+  height: 60px;
+}
+
+.button {
+    display: inline-block;
+}
+.nav-container button {
+  background-color:#0077C5;
+  color:white;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  display: inline-block;
+  border-radius: 2px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 100px;
+  height: 30px;
+}
+
+form button {
+  background-color:#0077C5;
+  color:white;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  display: inline-block;
+  border-radius: 2px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 300px;
+  height: 45px;
 }
 
 form p {
@@ -12,6 +57,7 @@ form p {
 }
 
 .container {
+  margin-top: 120;
   display:block;
   width:800px;
   margin:0 auto;
