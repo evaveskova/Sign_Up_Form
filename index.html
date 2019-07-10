@@ -1,37 +1,49 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-    <title></title>
-  </head>
-  <body>
 
-    <div class="nav-container">
-    <div class="nav">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  <title></title>
+</head>
+
+<body>
+
+  <div class="nav-container">
+    <div class="nav-text">
       <p>Already have an Intuit account?</p>
       <a href="#" id="forgot-password">I forgot my User ID or Password</a>
-      <div class="button">
-        <button type="button" name="button"><i style="margin-right: 10px;" class="fas fa-lock"></i>Sign in</button>
-      </div>
     </div>
+    <div class="button">
+      <button type="button" name="button"><i style="margin-right: 10px;" class="fas fa-lock"></i>Sign in</button>
     </div>
 
-    <div class="container">
+  </div>
 
-      <h3>Create an Intuit account</h3>
-      <p>One account for everything Intuit, including Mint.</p>
-      <a href="#" id="forgot-password">Learn more</a><br>
+  <div class="logos-container">
+    <img src="images/logos.png" alt="">
+  </div>
 
-      <form>
-        Email address<br>
-        <input type="text" name="email" required><br>
-        Phone (recommended)<br>
-        <p>Standard call, messaging or data rates may apply.</p>
-        <input type="tel" name="phone" ><br>
-        Password<br>
-        <input type="password" name="password" required><br>
-        <button type="button" name="button"><i style="margin-right: 10px;" class="fas fa-lock"></i>Create Account</button>
-      </form>
-    </div>
+  <div class="container">
+
+    <h3>Create an Intuit account</h3>
+    <p style="margin-bottom: -5px; font-size: 14px; font-weight: 300;">One account for everything Intuit, including
+      Mint.</p>
+    <a href="#" id="forgot-password">Learn more</a><br>
+
+    <form>
+      <p class='form-text'>Email address</p>
+      <input type="text" name="email" class='input' required>
+      <p class='form-text'>Phone (recommended)</p>
+
+      <input type="tel" name="phone" class='input'>
+      <p class='phone-text'>Standard call, messaging or data rates may apply.</p>
+
+      <p class='form-text'>Password</p>
+
+      <input type="password" name="password" class='input' required>
+      <button type="button" name="button"><i style="margin-right: 10px;" class="fas fa-lock"></i>Create Account</button>
+    </form>
+  </div>
