@@ -127,6 +127,11 @@ form {
   line-height: 1.5;
 }
 
+#password-img {
+  background: url(images/lock.png) no-repeat right 10px center;
+  background-size: 20px 20px;
+}
+
 
 .terms-of-service {
   color: #4C4C4C;
@@ -152,6 +157,9 @@ form {
   padding: 10px;
   font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-align: center;
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 10px;
 }
 
 a {
@@ -161,4 +169,5 @@ a {
 
 .legal-links a {
   padding: 3px;
+
 }
