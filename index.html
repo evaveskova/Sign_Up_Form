@@ -6,7 +6,7 @@
   <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
     integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-  <title></title>
+  <title>Ricala Mint Signup</title>
 </head>
 
 <body>
@@ -14,7 +14,7 @@
   <div class="nav-container">
     <div class="nav-text">
       <p>Already have an Intuit account?</p>
-      <a href="#" id="forgot-password">I forgot my User ID or Password</a>
+      <a href="#" style="color: #0077C5;">I forgot my User ID or Password</a>
     </div>
     <div class="button">
       <button type="button" name="button"><i style="margin-right: 10px;" class="fas fa-lock"></i>Sign in</button>
@@ -31,7 +31,7 @@
     <h3>Create an Intuit account</h3>
     <p style="margin-bottom: -5px; font-size: 14px; font-weight: 300;">One account for everything Intuit, including
       Mint.</p>
-    <a href="#" id="forgot-password">Learn more</a><br>
+    <a href="#" style="color: #0077C5;">Learn more</a><br>
 
     <form>
       <p class='form-text'>Email address</p>
@@ -43,7 +43,32 @@
 
       <p class='form-text'>Password</p>
 
-      <input type="password" name="password" class='input' required>
+      <input type="password" name="password" id='password-img' class='input' required>
       <button type="button" name="button"><i style="margin-right: 10px;" class="fas fa-lock"></i>Create Account</button>
     </form>
+
+    <div class="terms-of-service">
+      <p><i>By clicking Create Account, you agree to our
+          <a href="#" style="color: #0077C5;">Terms of Service</a> and have read and acknowledge our <a href="#"
+            style="color: #0077C5;">Privacy Statement</a>.</i></p>
+    </div>
+
+    <div class="recaptcha-text">
+      <p>Invisible reCAPTCHA by Google
+        <a href="#" style="color: #0077C5;">Privacy Policy</a> and <a href="#" style="color: #0077C5;">Terms of Use</a>.
+      </p>
+    </div>
+
+  </div>
+
+  <div id="legal">
+    <div class="legal-links">
+      <a href="#">Legal </a>
+      <a href="#"> Privacy </a>
+      <a href="#"> Security</a>
+
+      <p>&copy; 2019 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are
+        registered trademarks of Intuit Inc.
+        Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
+    </div>
   </div>

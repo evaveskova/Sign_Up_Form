@@ -120,9 +120,54 @@ form {
   border-radius: 3px;
   text-align: center;
   width: 370px;
-  height: 600px;
+  height: 100%;
   font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-size: 12px;
   line-height: 1.5;
+}
+
+#password-img {
+  background: url(images/lock.png) no-repeat right 10px center;
+  background-size: 20px 20px;
+}
+
+
+.terms-of-service {
+  color: #4C4C4C;
+  font-size: 12px;
+  padding-bottom: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-decoration: none;
+}
+
+
+.recaptcha-text {
+  color: #4C4C4C;
+  font-size: 10px;
+  padding: 10px;
+  text-decoration: none;
+  background-color: #ECEEF1
+}
+
+#legal {
+  color: #4C4C4C;
+  font-size: 12px;
+  padding: 10px;
+  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #4C4C4C;
+}
+
+.legal-links a {
+  padding: 3px;
+
 }
